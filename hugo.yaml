@@ -1,6 +1,5 @@
 baseURL: "https://kevinjiang.dev/"
 title: Kevin Jiang
-paginate: 5
 theme: PaperMod
 
 pluralizeListTitles: false
