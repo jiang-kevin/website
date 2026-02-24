@@ -66,9 +66,9 @@ params:
     imageHeight: 250
     # imageTitle: my image
     # buttons:
-    #   - name: Posts
-    #     url: posts
-    #   - name: Tags
+    #   - name: Blog
+    #     url: blog
+    # #   - name: Tags
     #     url: tags
 
   # home-info mode
@@ -111,12 +111,12 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
-# menu:
-#   main:
-#     - identifier: travel
-#       name: Travel
-#       url: /travel/
-#       weight: 10
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 10
 #     - identifier: blog
 #       name: Blog
 #       url: /blog/
